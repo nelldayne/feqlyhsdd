@@ -1,0 +1,11 @@
+@"
+# Flutter
+.dart_tool/
+build/
+android/
+ios/
+*.apk
+*.aab
+*.ipa
+*.dill
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
